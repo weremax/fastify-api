@@ -3,7 +3,7 @@
 * git clone {repo}
 * cd {repo}
 * yarn install
-* npm run start
+* npm run start or npm run test
 
 http://localhost:3000/
 ```json
