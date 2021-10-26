@@ -2,6 +2,12 @@ const tap = require('tap');
 const supertest = require('supertest');
 const buildFastify = require('../app');
 
+tap.test('quick', x => {
+    tap.equal(1, 1);
+    x.end();
+});
+
+
 tap.test('GET `/` route', async (t) => {
     const fastify = buildFastify()
 
